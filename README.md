@@ -39,16 +39,15 @@ country =  LonelyPlanetScrape::LonelyPlanetTours.new(country)
 
 ## Use:
 
-Get tours elements
+Get tours elements:
+
 ```ruby
 tours = country.tours
 ```
 
-```
-
 OR
 
-Get tours with specific total elements number. total_elements is optional
+Get tours with specific `total_elements` number (optional)
 
 ```ruby
 tours = country.tours(total_elements)
